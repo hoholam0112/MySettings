@@ -60,7 +60,7 @@ set showmatch
 let python_highlight_all = 1
 
 " color scheme
-colorscheme monokai
+colorscheme molokai
 
 " visual aotocomplete for command menu
 set wildmenu
