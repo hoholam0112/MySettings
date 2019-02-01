@@ -15,6 +15,9 @@ if not find_executable('vim'):
     subprocess.call(['sudo', 'apt-get', 'update'])
     subprocess.call(['sudo', 'apt-get', 'install', 'vim'])
 
+if not find_executable('cmake'):
+    subprocess.call(['sudo', 'apt', 'install', 'cmake'])
+
 # Install vundle for vim
 if not isdir(join(home, '.vim')):
     subprocess.call(['sudo', 'mkdir', join(home, '.vim')])
