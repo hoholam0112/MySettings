@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Yggdroot/indentLine'
+Plugin 'mechatroner/rainbow_csv'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
