@@ -10,6 +10,10 @@ Second, move to the repository and type this on your command line.
 python vim.py
 ```
 
+## Issues on YouCompleteMe: A popup window leaves some characters and highlights
+~/.vim/colors/monokai.vim
+change Pmemu ctermbg=None to ctermbg=0
+
 ## Conda
 Move to the repo and type this on your command line.
 ```

@@ -88,7 +88,8 @@ nnoremap <C-H> <C-W><C-H>
 map <C-n> :NERDTreeToggle<CR>
 
 " remove search highlights
-nnoremap <esc><esc> :noh<return>
+nnoremap <esc><esc> :noh<return> :redraw!<return>
+
 
 " not using swap files
 set noswapfile
@@ -103,6 +104,3 @@ set statusline=%F
 " set mouse enable
 set mouse=n
 
-" Autoclose preview window
-let g:ycm_autoclose_preview_window_after_insertion = 1
-let g:ycm_autoclose_preview_window_after_completion = 1
