@@ -102,3 +102,7 @@ set laststatus=2
 set statusline=%F
 " set mouse enable
 set mouse=n
+
+" Autoclose preview window
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
