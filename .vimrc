@@ -104,3 +104,11 @@ set statusline=%F
 " set mouse enable
 set mouse=n
 
+" Diable case changes
+xnoremap u <nop>
+xnoremap U <nop>
+nnoremap gu <nop>
+nnoremap gU <nop>
+
+
+
