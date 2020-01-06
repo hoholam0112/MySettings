@@ -11,15 +11,12 @@ python vim.py
 ```
 
 ### Issues on YouCompleteMe: A popup window leaves some characters and highlights
-1) open ```~/.vim/colors/monokai``` with text editer
-2) delete the following line
+1) Open ```~/.vim/colors/monokai.vim ``` with some text editer (like vim).
+2) Find the line which starts with
 ```
-Pmemu ctermbg=None
+hi Pmemu ...
 ```
-3) and replace the line with
-```
-Pmemu ctermbg=0
-```
+3) Modify ```ctermbg=None``` to ```ctermbg=0``` in the same line.
 
 ## Conda
 Move to the repo and type this on your command line.
