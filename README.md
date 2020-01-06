@@ -1,5 +1,5 @@
 # My Settings
-This codes are tested on Ubuntu 16.04 and 18.04. Don't try to run this code in other machines.
+This codes have been tested on Ubuntu 16.04 and 18.04. Don't try to run this code in other machines.
 ## Vim
 First, download this git repo to your local machine.
 ```
@@ -10,9 +10,13 @@ Second, move to the repository and type this on your command line.
 python vim.py
 ```
 
-## Issues on YouCompleteMe: A popup window leaves some characters and highlights
+## Issues on YouCompleteMe
+
+### A popup window leaves some characters and highlights
+```
 ~/.vim/colors/monokai.vim
 change Pmemu ctermbg=None to ctermbg=0
+```
 
 ## Conda
 Move to the repo and type this on your command line.
