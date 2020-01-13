@@ -14,7 +14,7 @@ python vim.py
 1) Open ```~/.vim/colors/monokai.vim ``` with some text editer (like vim).
 2) Find the line which starts with
 ```
-hi Pmemu ...
+hi Pmenu ...
 ```
 3) Modify ```ctermbg=None``` to ```ctermbg=0``` in the same line.
 
